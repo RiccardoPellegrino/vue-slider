@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .item {
@@ -30,6 +31,7 @@
     bottom: 20px;
     text-align: right;
     color: white;
+    text-shadow: 2px 2px blueviolet;
 }
 
 .thumbs {
