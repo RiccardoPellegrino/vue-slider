@@ -63,6 +63,7 @@ const app = createApp({
 
         stopAutoScroll() {
             clearInterval(this.autoscroll);
+            this.autoscroll = null;
         },
 
         clickSlide(index) {
